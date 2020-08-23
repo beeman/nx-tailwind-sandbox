@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-tailwind-sandbox/ui": ["libs/ui/src/index.ts"],
+      "@nx-tailwind-sandbox/dashboard": ["libs/dashboard/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
